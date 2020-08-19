@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hangman</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">
+          Hangman
+        </h1>
+        <p class="subtitle">
+          PRO/g/RAMMING CHALLENGES v.2.0a1<strong> no. 69</strong>
+        </p>
+        <div class="columns">
+          <div class="column has-text-centered">
+            <button class="button is-uppercase checkLetter_button" value="a">
+              a
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="b">
+              b
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="c">
+              c
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="d">
+              d
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="e">
+              e
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="f">
+              f
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="g">
+              g
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="h">
+              h
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="i">
+              i
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="j">
+              j
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="k">
+              k
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="l">
+              l
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="m">
+              m
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="n">
+              n
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="o">
+              o
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="p">
+              p
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="r">
+              r
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="s">
+              s
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="t">
+              t
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="u">
+              u
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="v">
+              v
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="w">
+              w
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="x">
+              x
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="y">
+              y
+            </button>
+            <button class="button is-uppercase checkLetter_button" value="z">
+              z
+            </button>
+            <button class="button is-primary" id="resetWord_button">
+              Pick a new word
+            </button>
+          </div>
+          <div class="column has-text-centered" id="word_container"></div>
+          <div class="column has-text-centered">
+            <canvas id="hangman_canvas" width="400" height="400"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
